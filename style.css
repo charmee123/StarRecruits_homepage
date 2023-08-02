@@ -181,8 +181,15 @@ h2{
 
 
 
-@media (max-width: 700px) {
+
+@media (max-width: 1024px) {
   
+    .navbar{
+        width: 100%;
+    }
+    .colored-section{
+        width: 100%;
+    }
     #title {
       text-align: center;
     }
@@ -192,10 +199,17 @@ h2{
       transform: rotate(0);
     }
     .image{
-        position:static;
-        width: 195px;
+       position: static;
+        width: 270px;
         
     }
+    #title .container-fluid {
+        padding: 0 5px 20px;
+    }
+    
+
+}
+@media (max-width:512px){
     #footer{
         text-align: center;
     }
@@ -217,8 +231,7 @@ h2{
     .partner{
         width:50px;
     }
-    
-    
-    
-    
+    .content-2{
+        padding-left: 50px;
+    }
 }
